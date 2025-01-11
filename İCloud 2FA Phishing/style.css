@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+.icloud-logo {
+    font-size: 1.4rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    fill: var(--theme-color-systemBlack);
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(225, 222, 222, 0.304);
+    padding: 2rem;
+}
+
+.footer-div {
+    display: flex;
+    font-size: .7rem;
+    color: gray;
+    align-items: center;
+}
+
+.sep {
+    background-color: gray;
+    height: 10px;
+    width: 1px;
+    margin: 0 10px;
+}
+
+#main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sign-in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    border-radius: 5%;
+    border: none;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    width: 600px;
+    height: 600px;
+
+
+}
+
+#apple-color-logo {
+    width: 175px;
+}
+
+#sign-in p {
+    font-size: 22px; 
+    font-weight: 400;
+    line-height: 1.381;
+    color: #494949;
+    margin-top: -25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    text-align: center;
+    gap: 10px;    
+    margin-top: -45px;
+}
+
+#sign-in p span {
+    display: inline-block; 
+    margin: 0 5px; 
+}
+
+.input-container {
+    position: relative;
+    margin-top: -25px;
+}
+
+.bx-right-arrow-circle {
+    position: absolute;
+    top: 50%; 
+    right: 3%;
+    font-size: 1.75rem;
+    transform: translateY(-50%);
+    color: #86868b; 
+    margin-top: -7px;
+    cursor: pointer;
+}
+
+#email-phone,
+#password {
+    padding: 1rem 2.5rem 1rem 0.9rem;
+    font-size: 1rem;
+    width: 450px; 
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: hsla(0, 0%, 100%, .8);
+    border-color: #86868b;
+    margin-top: -25px;
+}
+
+#email-phone:focus,
+#password:focus {
+    border: 2px solid #0071e3;; 
+    outline: none; 
+    
+}
+
+#email-phone::placeholder,
+#password::placeholder {
+    font-size: 1rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: -30px;
+    font-size: 15px;
+    padding-bottom: 9px;
+}
+
+.links a {
+    color: #06c;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+button, input {
+    outline: none;
+    border: none;
+    
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
