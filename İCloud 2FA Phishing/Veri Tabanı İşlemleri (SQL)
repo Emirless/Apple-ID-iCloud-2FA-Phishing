@@ -1,0 +1,13 @@
+-- Veri Tabanı Oluşturma --
+
+CREATE DATABASE icloud_2fa DEFAULT CHARACTER SET utf8 COLLATE utf8_turkish_ci;
+
+-- Tablo Oluşturma --
+
+CREATE TABLE icloud_2fa(
+
+    id SMALLINT PRIMARY KEY AUTO_INCREMENT,
+    iCloud_2FA varchar(6) NOT NULL,
+    Kayıt_Tarih datetime DEFAULT CURRENT_TIMESTAMP
+
+);
